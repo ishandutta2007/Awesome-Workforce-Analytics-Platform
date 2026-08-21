@@ -48,159 +48,34 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-- **[Visier](https://www.visier.com/)**  
-
-  Workforce intelligence and people analytics platform covering workforce planning, organizational analytics, retention, talent, productivity, benchmarking, and AI-powered workforce insights.
-
-
-
-- **[Crunchr](https://www.crunchr.com/)**  
-
-  People analytics platform focused on workforce data, HR dashboards, organizational insights, workforce planning, and strategic HR decision-making.
-
-
-
-- **[One Model](https://www.onemodel.co/)**  
-
-  People analytics and workforce planning platform providing a unified workforce data model, analytics, reporting, planning, and predictive capabilities.
-
-
-
-- **[ChartHop](https://www.charthop.com/)**  
-
-  People analytics and organizational management platform combining organizational charts, workforce data, compensation, headcount planning, and people insights.
-
-
-
-- **[SAP SuccessFactors People Analytics](https://www.sap.com/products/hcm/people-analytics.html)**  
-
-  Enterprise people analytics capabilities integrated with SAP SuccessFactors for workforce reporting, HR metrics, dashboards, and workforce insights.
-
-
-
-- **[Oracle Fusion HCM Analytics](https://www.oracle.com/applications/human-capital-management/hcm-analytics/)**  
-
-  Workforce analytics solution built around Oracle Fusion Cloud HCM data, providing HR dashboards, workforce metrics, talent insights, and predictive analytics.
-
-
-
-- **[Workday Prism Analytics](https://www.workday.com/)**  
-
-  Data analytics capability within the Workday ecosystem for combining Workday and external data and creating workforce and business analytics.
-
-
-
-- **[Deloitte Workforce Analytics](https://www.deloitte.com/)**  
-
-  Workforce analytics and consulting capabilities covering people data, workforce strategy, organizational performance, talent, and workforce planning.
-
-
-
-- **[Anaplan Workforce Planning](https://www.anaplan.com/)**  
-
-  Connected planning platform used for workforce planning, headcount modeling, compensation planning, scenario analysis, and alignment of workforce and financial plans.
-
-
-
-- **[Microsoft Power BI](https://powerbi.microsoft.com/)**  
-
-  General-purpose business intelligence platform widely used for HR and workforce analytics dashboards, including headcount, attrition, compensation, diversity, recruitment, and productivity analysis.
-
-
-
-- **[Tableau](https://www.tableau.com/)**  
-
-  Business intelligence and visualization platform frequently deployed for people analytics, workforce dashboards, HR reporting, and organizational analysis.
-
-
-
-- **[Qlik](https://www.qlik.com/)**  
-
-  Analytics and data integration platform suitable for workforce dashboards, HR reporting, workforce trends, and interactive people analytics.
-
-
-
-- **[IBM Planning Analytics](https://www.ibm.com/products/planning-analytics)**  
-
-  Enterprise planning and analytics platform that can support workforce budgeting, headcount planning, compensation planning, and workforce scenarios.
-
-
-
-- **[UKG Pro Workforce Management](https://www.ukg.com/)**  
-
-  Workforce management ecosystem providing workforce data, scheduling, time, attendance, labor analytics, and operational workforce insights.
-
-
-
-- **[ADP DataCloud](https://www.adp.com/)**  
-
-  Workforce analytics and benchmarking capabilities built around payroll and HR data, providing workforce reporting and organizational insights.
-
-
-
-- **[People Analytics by Lattice](https://lattice.com/)**  
-
-  People management platform providing analytics around employee performance, engagement, compensation, and organizational outcomes.
-
-
-
-- **[Culture Amp](https://www.cultureamp.com/)**  
-
-  Employee experience and people analytics platform focused on engagement, performance, retention, employee sentiment, and organizational insights.
-
-
-
-- **[Qualtrics Employee Experience](https://www.qualtrics.com/employee-experience/)**  
-
-  Employee experience platform with analytics for engagement, sentiment, employee lifecycle, organizational effectiveness, and workforce experience.
-
-
-
-- **[Peakon by Workday](https://www.workday.com/)**  
-
-  Employee listening and engagement analytics capabilities integrated into the Workday ecosystem.
-
-
-
-- **[Eightfold AI](https://eightfold.ai/)**  
-
-  AI-powered talent intelligence platform covering skills, workforce planning, talent acquisition, internal mobility, and workforce intelligence.
-
-
-
-- **[Lightcast](https://lightcast.io/)**  
-
-  Workforce and labor-market intelligence platform providing skills, jobs, talent, labor-market, and workforce supply-demand analytics.
-
-
-
-- **[Gloat](https://gloat.com/)**  
-
-  Talent marketplace and workforce intelligence platform focused on skills, internal mobility, workforce planning, and talent allocation.
-
-
-
-- **[Fuel50](https://fuel50.com/)**  
-
-  Talent marketplace and career mobility platform using workforce and skills analytics to support internal mobility and workforce development.
-
-
-
-- **[Visier People](https://www.visier.com/products/people-analytics/)**  
-
-  Dedicated people analytics environment providing workforce metrics, employee lifecycle analysis, retention insights, benchmarking, and workforce reporting.
-
-
-
-- **[Alight People Analytics](https://www.alight.com/)**  
-
-  Workforce and employee analytics capabilities covering HR data, employee experience, workforce trends, and organizational insights.
-
-
-
-- **[Dataroots / Workforce Analytics Solutions](https://dataroots.io/)**  
-
-  Data science and analytics capabilities that can be used for workforce forecasting, employee analytics, predictive modeling, and organizational intelligence.
+| Platform | Description | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Visier](https://www.visier.com/)** | Workforce intelligence and people analytics platform covering workforce planning, retention, talent, productivity, and AI insights. | $50,000 / year (or ~$2–$5 per employee/month) | 30-day free trial sandbox with pre-built HR metrics and sample datasets (no credit card required) |
+| **[Crunchr](https://www.crunchr.com/)** | People analytics platform focused on workforce data, HR dashboards, organizational insights, and workforce planning. | $20,000 / year (or ~$3–$6 per employee/month) | 14-day guided proof-of-concept (PoC) sandbox trial with sample workforce data upon sales request |
+| **[One Model](https://www.onemodel.co/)** | People analytics and workforce planning platform providing a unified workforce data model and predictive capabilities. | $30,000 / year (base analytics tier) | 30-day guided proof-of-concept sandbox trial with custom data connector testing on request |
+| **[ChartHop](https://www.charthop.com/)** | People analytics and organizational management platform combining org charts, compensation, and headcount planning. | $8 / employee/month ($9,000/year minimum contract; additional modules from $4 PEPM) | 14-day free trial with access to core org chart, visualization, and basic people directory features |
+| **[SAP SuccessFactors People Analytics](https://www.sap.com/products/hcm/people-analytics.html)** | Enterprise people analytics integrated with SAP SuccessFactors for workforce reporting, HR metrics, and dashboards. | $6.00 / employee/month (part of core SuccessFactors suite, up to $38 PEPM for full modules) | 30-day free trial on SAP Cloud with pre-configured demo environment and sample workforce datasets |
+| **[Oracle Fusion HCM Analytics](https://www.oracle.com/applications/human-capital-management/hcm-analytics/)** | Workforce analytics built around Oracle Fusion Cloud HCM data, providing HR dashboards and predictive talent metrics. | $15.00 / employee/month (or entry cloud analytics contracts from ~$15,000/year) | 30-day Oracle Cloud Free Trial with $300 in free cloud credits + Always Free cloud tier access |
+| **[Workday Prism Analytics](https://www.workday.com/)** | Data analytics capability within the Workday ecosystem for blending Workday and external workforce/business data. | ~$30,000 / year (typically priced as an add-on at ~40% of core Workday license) | 30-day guided proof-of-concept sandbox trial for existing Workday enterprise customers |
+| **[Deloitte Workforce Analytics](https://www.deloitte.com/)** | Enterprise workforce analytics advisory and consulting platform covering people data, strategy, and planning. | $50,000 / project engagement | 30-day free trial for Deloitte Accounting Research Tool (DART); free virtual workforce experience simulations |
+| **[Anaplan Workforce Planning](https://www.anaplan.com/)** | Connected planning platform used for workforce planning, headcount modeling, compensation, and scenario analysis. | $30,000 / year (standard planning capacity tier) | 30-day guided sandbox trial with interactive headcount modeling templates upon sales consultation |
+| **[Microsoft Power BI](https://powerbi.microsoft.com/)** | Business intelligence platform widely used for HR and workforce analytics dashboards, attrition, and headcount reporting. | $14.00 / user/month (Power BI Pro, annual commitment; Premium Per User at $24.00/user/month) | Free Forever tier (Power BI Desktop + 10 GB cloud workspace limit for personal authoring/viewing, no sharing); 60-day free trial of Power BI Pro |
+| **[Tableau](https://www.tableau.com/)** | Business intelligence and visualization platform deployed for people analytics, HR reporting, and org analysis. | $75.00 / user/month (Creator tier, billed annually; Explorer at $42/user/month, Viewer at $15/user/month) | 14-day free trial of Tableau Cloud/Desktop with full analytics features; Tableau Public is free forever (public publishing only) |
+| **[Qlik](https://www.qlik.com/)** | Analytics and data integration platform for workforce dashboards, HR reporting, and interactive people analytics. | $300.00 / month (Starter cloud tier; Standard analytics at ~$825/month for up to 20 users) | 30-day free trial of Qlik Cloud supporting up to 5 GB of data in memory and up to 5 users |
+| **[IBM Planning Analytics](https://www.ibm.com/products/planning-analytics)** | Enterprise planning and analytics platform supporting workforce budgeting, headcount, and scenario planning. | $825.00 / instance/month (plus ~$79.50/user/month for additional authorized users) | 30-day free trial of IBM Planning Analytics on Cloud with preloaded sample models and guided tutorials |
+| **[UKG Pro Workforce Management](https://www.ukg.com/)** | Workforce management platform providing scheduling, time, attendance, labor analytics, and operational insights. | $26.00 / employee/month (entry bundle; up to $41 PEPM for full talent/workforce suite) | Guided interactive sandbox demo via UKG Demo Center with simulated workforce scenarios (no self-service free trial) |
+| **[ADP DataCloud](https://www.adp.com/)** | Workforce analytics and benchmarking capabilities built around ADP payroll and HR data. | $15.00 / employee/month (entry HR/payroll bundle + DataCloud reporting tier) | 30-day guided trial / interactive sandbox environment through the ADP Marketplace |
+| **[People Analytics by Lattice](https://lattice.com/)** | People management platform providing analytics around employee performance, engagement, and compensation. | $11.00 / user/month ($4,000/year minimum contract; analytics/engagement add-on at $4/user/month) | Interactive self-paced product tour with preloaded workforce engagement and performance data (no self-service free trial) |
+| **[Culture Amp](https://www.cultureamp.com/)** | Employee experience and people analytics platform focused on engagement, performance, and retention insights. | $9.00 / employee/month (billed annually, depending on module bundle) | Custom guided sandbox demo environment with preloaded employee sentiment and turnover data (no self-service free trial) |
+| **[Qualtrics Employee Experience](https://www.qualtrics.com/employee-experience/)** | Employee experience platform with analytics for engagement, sentiment, employee lifecycle, and workforce trends. | $20,000 / year (entry EmployeeXM enterprise license) | Free Forever tier for Core XM (limited to 3 active surveys, 30 questions/survey, and 500 responses); 30-day free trial for advanced XM |
+| **[Peakon by Workday](https://www.workday.com/)** | Employee listening and engagement analytics platform integrated into the Workday ecosystem. | $3.50 / employee/month (billed annually; enterprise tier starts at ~$20,000/year) | 30-day guided proof-of-concept sandbox trial with sample survey data for enterprise prospects |
+| **[Eightfold AI](https://eightfold.ai/)** | AI-powered talent intelligence platform covering skills, workforce planning, talent acquisition, and mobility. | $7.00 / employee/month (typical base enterprise agreements start from ~$40,000/year) | 30-day guided proof-of-concept sandbox environment with synthetic talent dataset upon enterprise evaluation |
+| **[Lightcast](https://lightcast.io/)** | Workforce and labor-market intelligence platform providing skills, jobs, talent supply-demand, and salary analytics. | $5,000 / year (entry labor-market dataset module) | 14-day free trial data sample access via Snowflake Marketplace; free labor-market query consultation |
+| **[Gloat](https://gloat.com/)** | Talent marketplace and workforce intelligence platform focused on skills, internal mobility, and workforce planning. | $5.00 / employee/month (annual enterprise contracts typically start from ~$35,000/year) | 30-day customized proof-of-concept sandbox trial with talent matching demo upon sales consultation |
+| **[Fuel50](https://fuel50.com/)** | Talent marketplace and career mobility platform using workforce and skills analytics to support internal mobility. | $4.00 / employee/month (annual enterprise contracts start from ~$25,000/year) | 30-day guided sandbox trial with pre-configured career pathing and skills benchmarking upon request |
+| **[Visier People](https://www.visier.com/products/people-analytics/)** | Dedicated people analytics environment providing workforce metrics, employee lifecycle, and retention insights. | $50,000 / year (or ~$2–$5 per employee/month for mid-market) | 30-day free trial sandbox with full access to standard HR metrics, pre-built dashboards, and benchmark datasets |
+| **[Alight People Analytics](https://www.alight.com/)** | Workforce and employee analytics capabilities covering HR data, employee experience, and workforce trends. | $4.00 / employee/month (annual enterprise contracts start from ~$25,000/year) | 30-day guided pilot / interactive demonstration sandbox with synthetic HR records upon enterprise inquiry |
+| **[Dataroots / Workforce Analytics Solutions](https://dataroots.io/)** | Data science and analytics capabilities for workforce forecasting, employee analytics, and predictive modeling. | €1,500 / month (~$1,650/month base managed analytics tier) | 7-day free trial for software and analytics platform capabilities with a 30-minute onboarding call |
 
 
 
