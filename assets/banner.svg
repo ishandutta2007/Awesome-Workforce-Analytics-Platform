@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070b14" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.08)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)" />
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="blurFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { transform: scale(1); opacity: 0.4; }
+        50% { transform: scale(1.15); opacity: 0.7; }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes floatFast {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-14px) rotate(1deg); }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -100; }
+      }
+      @keyframes barGrow {
+        0%, 100% { transform: scaleY(0.7); }
+        50% { transform: scaleY(1); }
+      }
+
+      .pulse-glow-1 {
+        transform-origin: 200px 100px;
+        animation: pulseGlow 7s ease-in-out infinite;
+      }
+      .pulse-glow-2 {
+        transform-origin: 1000px 280px;
+        animation: pulseGlow 9s ease-in-out infinite alternate;
+      }
+      .float-card-1 {
+        animation: floatSlow 6s ease-in-out infinite;
+      }
+      .float-card-2 {
+        animation: floatFast 7s ease-in-out infinite 1s;
+      }
+      .float-card-3 {
+        animation: floatSlow 8s ease-in-out infinite 2s;
+      }
+      .animated-dash {
+        stroke-dasharray: 6 6;
+        animation: dashMove 12s linear infinite;
+      }
+      .metric-bar {
+        transform-origin: bottom;
+        animation: barGrow 4s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="380" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="380" rx="16" fill="none" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1.5" />
+
+  <!-- Animated Glowing Orbs -->
+  <circle cx="200" cy="100" r="180" fill="url(#glowCyan)" filter="url(#blurFilter)" class="pulse-glow-1" />
+  <circle cx="1000" cy="280" r="220" fill="url(#glowPurple)" filter="url(#blurFilter)" class="pulse-glow-2" />
+
+  <!-- Abstract Grid & Tech Lines -->
+  <g opacity="0.15">
+    <path d="M 0,60 L 1200,60 M 0,120 L 1200,120 M 0,180 L 1200,180 M 0,240 L 1200,240 M 0,300 L 1200,300" stroke="#ffffff" stroke-width="0.75" />
+    <path d="M 120,0 L 120,380 M 240,0 L 240,380 M 360,0 L 360,380 M 480,0 L 480,380 M 600,0 L 600,380 M 720,0 L 720,380 M 840,0 L 840,380 M 960,0 L 960,380 M 1080,0 L 1080,380" stroke="#ffffff" stroke-width="0.75" />
+  </g>
+
+  <!-- Dynamic Connected Network Lines -->
+  <path d="M 150,290 Q 300,180 500,220 T 850,140 T 1100,190" fill="none" stroke="url(#accentGrad1)" stroke-width="2" opacity="0.4" class="animated-dash" />
+  <path d="M 80,180 Q 350,320 620,160 T 980,260" fill="none" stroke="url(#accentGrad2)" stroke-width="2" opacity="0.3" class="animated-dash" style="animation-duration: 16s;" />
+
+  <!-- Left Side: Title and Value Proposition -->
+  <g transform="translate(80, 85)">
+    <!-- Top Pill Badge -->
+    <g transform="translate(0, 0)">
+      <rect width="265" height="32" rx="16" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" />
+      <circle cx="16" cy="16" r="5" fill="#38bdf8" />
+      <text x="32" y="21" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="0.5">PEOPLE &amp; WORKFORCE INTELLIGENCE</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="80" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-1">
+      Awesome <tspan fill="url(#accentGrad1)">Workforce</tspan>
+    </text>
+    <text x="0" y="132" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-1">
+      Analytics Platform
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="176" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" letter-spacing="0.2">
+      Curated Ecosystem of Enterprise SaaS &amp; Open-Source People Intelligence
+    </text>
+    <text x="0" y="202" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400">
+      Headcount • Retention • Attrition ML • Compensation • Skills • Org Insights
+    </text>
+  </g>
+
+  <!-- Right Side: Floating Dynamic Cards -->
+  <!-- Card 1: Retention & Attrition ML -->
+  <g transform="translate(810, 50)" class="float-card-1">
+    <rect width="290" height="96" rx="14" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.2" />
+    <g transform="translate(18, 20)">
+      <rect width="36" height="36" rx="8" fill="rgba(56, 189, 248, 0.15)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" />
+      <path d="M 10,24 L 16,14 L 22,19 L 28,11" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      
+      <text x="48" y="16" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">ATTRITION RISK MODEL</text>
+      <text x="48" y="38" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">-42.8%</text>
+      <text x="142" y="36" fill="#22c55e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">▲ High Accuracy</text>
+    </g>
+    <path d="M 20,78 Q 80,68 140,82 T 260,65" fill="none" stroke="rgba(56, 189, 248, 0.6)" stroke-width="2" />
+  </g>
+
+  <!-- Card 2: Headcount & Talent Mobility -->
+  <g transform="translate(850, 160)" class="float-card-2">
+    <rect width="280" height="100" rx="14" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.2" />
+    <g transform="translate(18, 20)">
+      <rect width="36" height="36" rx="8" fill="rgba(192, 132, 252, 0.15)" stroke="rgba(192, 132, 252, 0.4)" stroke-width="1" />
+      <circle cx="18" cy="14" r="4" fill="#c084fc" />
+      <path d="M 11,26 C 11,22 25,22 25,26" fill="none" stroke="#c084fc" stroke-width="2" />
+      
+      <text x="48" y="16" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">TALENT RETENTION RATE</text>
+      <text x="48" y="38" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">96.4%</text>
+      <text x="135" y="36" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">+8.2% YoY</text>
+    </g>
+
+    <g transform="translate(18, 72)">
+      <rect x="0" y="0" width="16" height="14" rx="3" fill="rgba(192, 132, 252, 0.4)" />
+      <rect x="22" y="-4" width="16" height="18" rx="3" fill="rgba(192, 132, 252, 0.6)" />
+      <rect x="44" y="-8" width="16" height="22" rx="3" fill="rgba(192, 132, 252, 0.8)" />
+      <rect x="66" y="-14" width="16" height="28" rx="3" fill="#c084fc" />
+      <rect x="88" y="-10" width="16" height="24" rx="3" fill="rgba(192, 132, 252, 0.85)" />
+      <rect x="110" y="-18" width="16" height="32" rx="3" fill="#38bdf8" />
+    </g>
+  </g>
+
+  <!-- Card 3: Live Ecosystem Nodes Indicator -->
+  <g transform="translate(730, 275)" class="float-card-3">
+    <rect width="250" height="60" rx="12" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
+    <g transform="translate(16, 16)">
+      <circle cx="14" cy="14" r="6" fill="#22c55e" />
+      <circle cx="14" cy="14" r="10" fill="none" stroke="#22c55e" stroke-width="1.5" opacity="0.5" class="pulse-glow-1" />
+      <text x="32" y="14" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Enterprise &amp; Open-Source</text>
+      <text x="32" y="28" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400">70+ Curated Analytics Platforms</text>
+    </g>
+  </g>
+</svg>
